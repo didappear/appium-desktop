@@ -118,7 +118,7 @@
     "css-modules-require-hook": "^4.2.3",
     "electron-debug": "^2.0.0",
     "electron-log": "^2.2.17",
-    "electron-settings": "^3.2.0",
+    "electron-settings": "^2.2.4",
     "electron-updater": "^4.0.1",
     "fix-path": "^2.1.0",
     "font-awesome": "4.x",
@@ -181,7 +181,7 @@
     "greenkeeper-lockfile": "^1.15.1",
     "jquery": "^3.3.1",
     "jsdom": "^13.0.0",
-    "less": "^3.9.0",
+    "less": "^2.7.3",
     "mocha": "^5.2.0",
     "mocha-junit-reporter": "^1.18.0",
     "mocha-multi-reporters": "^1.1.7",
@@ -204,5 +204,11 @@
   "engines": {
     "node": ">=10.x",
     "npm": ">=5.x"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "less",
+      "electron-settings"
+    ]
   }
 }
